@@ -60,7 +60,7 @@ $(".list-group").on("click", "p", function() {
     
  
 });
-
+// how does the onlckick here know to do the opposite when textarea isn't clicked
 $(".list-group").on("blur", "textarea", function() {
   // get the textarea's current value/text
 var text = $(this)
